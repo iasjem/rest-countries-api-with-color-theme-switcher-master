@@ -11,6 +11,51 @@
     <script src="https://cdn.jsdelivr.net/npm/numbro@2.3.1/dist/numbro.min.js"></script>
 </head>
 <body>
+    <div class="body-wrapper">
+        <div class="top-navbar">
+            <div class="app-title">
+                <h1>Where in the world?</h1>
+            </div>
+            <div class="color-switcher">
+                <p><i class="far fa-moon"></i> Dark Mode</p>
+                <!-- <p><i class="fas fa-moon"></i> Dark Mode</p> -->
+            </div>
+        </div>
+        <div class="app-content">
+            <div class="homepage-container">
+                <div class="homepage-search-navbar">
+                    <div class="search-keyword-container">
+                        <div class="search-keyword-input">
+                            <i class="fas fa-search"></i>
+                            <input type="text" placeholder="Search for a country..." />
+                            <div class="search-keyword-suggestion-list"></div>
+                        </div>
+                    </div>
+                    <div class="search-filter-container">
+                        <div class="search-filter-dropdown-button">
+                            <p>Filter by Region <i class="fas fa-angle-down"></i></p>
+                        </div>
+                        <div class="search-filter-dropdown-list">
+                            <div class="dropdown-item">Africa</div>
+                            <div class="dropdown-item">America</div>
+                            <div class="dropdown-item">Asia</div>
+                            <div class="dropdown-item">Europe</div>
+                            <div class="dropdown-item">Oceania</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="homepage-item-list"></div>
+            </div>
+            <div class="detail-page-container">
+                <div class="detail-page-navbar">
+                    <div class="detail-page-button">
+                        <i class="fas fa-arrow-left"></i> Back
+                    </div>
+                </div>
+                <div class="detail-page-item-container"></div>
+            </div>
+        </div>
+    </div>
     <script type="text/javascript" src="src/index.js"></script>
 </body>
 </html>
