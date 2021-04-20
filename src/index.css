@@ -22,3 +22,15 @@ body {
     font-family: var(--default-font-family);
     font-size: var(--default-text-font-size);
 }
+
+#app {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.body-wrapper {
+    width: 80%;
+    overflow: auto;
+    margin: 0 auto;
+}
