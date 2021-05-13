@@ -39,6 +39,8 @@ body {
     margin: 0 auto;
 }
 
+.hidden { display: none; }
+
 .top-navbar {
     width: 100%;
     background-color: var(--white);
