@@ -79,3 +79,9 @@ body {
 .homepage-container {
     padding: 2.5rem 0;
 }
+
+.homepage-search-navbar {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 120px;
+}
