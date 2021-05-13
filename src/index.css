@@ -73,3 +73,7 @@ body {
 .app-content {
     background-color: var(--lighter-gray);
 }
+
+.homepage-container {
+    padding: 2.5rem 0;
+}
