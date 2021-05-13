@@ -34,7 +34,7 @@ body {
 }
 
 .body-wrapper {
-    width: 95%;
+    width: 85%;
     overflow: auto;
     margin: 0 auto;
 }
@@ -49,11 +49,7 @@ body {
 
 .grid-container {   
     display: grid;
-    grid-template-columns: 1fr 120px;
-}
-
-.top-navbar .app-title {
-    margin-left: 15px;
+    grid-template-columns: 1fr 90px;
 }
 
 .top-navbar .app-title h1 {
